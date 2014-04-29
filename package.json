@@ -1,0 +1,9 @@
+{
+  "name": "js-redis-admin",
+  "description": "An advanced redis administration webapp",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.1.1"
+  }
+}
