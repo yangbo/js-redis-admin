@@ -1,0 +1,19 @@
+{
+  "name": "js-redis-admin",
+  "version": "0.1.0",
+  "homepage": "https://github.com/yangbo/js-redis-admin",
+  "authors": [
+    "Bob Yang <bob.yang.dev@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "*"
+  }
+}

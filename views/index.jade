@@ -1,0 +1,11 @@
+doctype html
+html(ng-app lang='zh')
+head
+	script(src="angular.js")
+	script(src="redis_cmd.js")
+body
+	h1 Redis Admin powered by 'node.js' and 'angular.js'
+	div(ng-controller='RedisCommandControl')
+		form(ng-submit='exec()')
+			input(type="text", ng-model="command.cmd", placeholder="请输入redis命令")
+		div {{command.result}}
